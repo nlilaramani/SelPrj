@@ -27,7 +27,7 @@ public class TestOptions {
     
     @Before
     public void setUp() {
-        driver=DriverUtils.getFirefoxRemoteDriver();
+        driver=DriverUtils.getChromeRemoteDriver();
         baseUrl="file:///c:/QA/register.html";
     }
     @Test

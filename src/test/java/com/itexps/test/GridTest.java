@@ -37,7 +37,6 @@ public class GridTest {
     
     @Before
     public void setUp() {
-        DesiredCapabilities capabilities=DesiredCapabilities.chrome();
         driver=DriverUtils.getChromeRemoteDriver();
         baseUrl="http://newtours.demoaut.com";
   
