@@ -36,7 +36,7 @@ public class NewToursTest {
         baseUrl="http://newtours.demoaut.com";
   
     }
-   /* @Test
+    @Test
     public void testHomePage(){
         driver.get(baseUrl);
         
@@ -53,7 +53,7 @@ public class NewToursTest {
         }
    
     }
-    */
+    
     /*@Test
         public void testLoginPO(){
             SigninPage loginPage=PageFactory.initElements(driver, SigninPage.class);

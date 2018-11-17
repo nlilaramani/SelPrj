@@ -53,26 +53,20 @@ public class LocatorTest {
         driver.quit();
     }
     
-   /* @Test
+    @Test
     public void testOptions(){
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.navigate().to("http://www.google.com");
-        driver.navigate().to("http://www.ibm.com");
-        driver.navigate().to("http://www.facebook.com");
-        driver.navigate().back();
-        driver.navigate().forward();
-        assertTrue(driver.getCurrentUrl().contains("facebook"));
-    }*/
+    }
     
-    @Test
+    /*@Test
     public void testLocators1(){
         driver.get(baseUrl);
         List<WebElement> radios=driver.findElements(By.name("gender"));
         radios.get(1).click();
-    }
+    }*/
     
-   @Test
+   /*@Test
     public void testLocators(){
         driver.get(baseUrl);
         WebElement lastName=driver.findElement(By.id("lname"));
@@ -101,5 +95,5 @@ public class LocatorTest {
         //File screenshot=((TakesScreenshot)augmentDriver).getScreenshotAs(OutputType.FILE);
         //FileUtils.copyFile(screenshot, new File("c:\\qa\\screenshot.png"));
 
-    }
+    }*/
 }
