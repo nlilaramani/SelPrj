@@ -54,14 +54,14 @@ public class NewToursTest {
    
     }
     */
-    @Test
+    /*@Test
         public void testLoginPO(){
             SigninPage loginPage=PageFactory.initElements(driver, SigninPage.class);
             loginPage.login("mercury", "mercury");
             //sassertTrue(flightFinder.getTitle().contains("Find a Flight"));
             //flightFinder.findFlights("oneway",3,"New York","London","Economy");
             
-        }
+        }*/
     @Test
     public void testGoogleSearch(){
         driver.get("http://www.google.com");
